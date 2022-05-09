@@ -1,0 +1,96 @@
+/*
+Author: Dominique Tepper
+File Name: styles.css
+Date: 05/07/2022
+*/
+
+/*
+Nav Text: #f6aa1c (Bright Yellow Crayola)
+Body text: #220901 (Dark Sienna)
+Accent color: #621708 (Blood Red)
+Background: #f6f2f0 (Isabelline)
+Footer text: #e7ecef (Alice Blue)
+*/
+
+/* CSS reset */
+body, header, nav, main, footer, img, /*h1, h3, ul*/ {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body */
+
+body {
+  backgrund-color: #f6f2f0;
+}
+
+/* Style rules for images */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rules for navigation */
+
+nav {
+  background-color: #621708;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: 'Katibeh', cursive;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #f6aa1c;
+  padding: 0.5em 2em 0.5em 2em;
+  text-decoration: none;
+}
+
+/* Style rules for header */
+
+
+
+/* Style rules for main content*/
+main {
+  padding: 10%
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+main p {
+  font-size: 1.25em;
+}
+
+
+/* Style rules for classes and id selectors */
+
+
+
+/* Style rules for footer */
+
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #621708;
+  color: #e7ecef;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+footer a {
+  color: #e7ecef;
+  text-decoration: none;
+}

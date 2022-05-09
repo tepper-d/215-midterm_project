@@ -1,0 +1,184 @@
+/********************************************************
+Author: Dominique Tepper
+File Name: styles.css
+Date: 05/07/2022
+********************************************************/
+
+/******************************************************
+Nav Text: #f6aa1c (Bright Yellow Crayola)
+Body text: #220901 (Dark Sienna)
+Accent color: #621708 (Blood Red)
+Background: #ede7e3 (Isabelline)
+Footer text: #ede7e3 (Isabelline)
+#e7ecef (Alice Blue)
+*****************************************************/
+
+/********** CSS reset **********/
+body, header, nav, main, footer, img, /*h1, h3, ul*/ {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+  background-color: #621708;
+}
+
+/********** Style rules for body **********/
+
+body {
+  background-color: #ede7e3;
+}
+
+/********** Style rules for images **********/
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/********** Style rules for navigation **********/
+
+nav {
+  background-color: #621708;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 2em;
+  font-family: 'Katibeh', cursive;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #f6aa1c;
+  padding: 0.5em 2em 0.5em 2em;
+  text-decoration: none;
+}
+
+/********** Style rules for article headers **********/
+
+h2 {
+  font-family: 'Katibeh', cursive;
+  font-size: 4em;
+  color: #f6aa1c;
+}
+
+/********** Style rules for main content **********/
+main img {
+  max-width: 100%;
+  display: block;
+}
+
+article {
+  width: 1000px;
+  margin: 15px auto;
+}
+
+article p {
+  font-size: 1.25em;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #461220;
+}
+
+.p-left {
+  width: 600px;
+  float: left;
+}
+
+.p-right {
+  width: 600px;
+  float: right;
+}
+
+.right{
+  height: 400px;
+  width: 360px;
+  float: right;
+  padding-top: 5%;
+}
+
+.left{
+  height: 400px;
+  width: 360px;
+  float: left;
+}
+
+article ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+}
+
+article li{
+  display: inline-block;
+  font-size: 1.25em;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #461220;
+}
+
+article img {
+  max-width: 100%;
+  max-height: 30%
+  display: block;
+}
+
+#yt {
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+}
+
+
+/********** Style rules for classes and id selectors **********/
+
+.list {
+  font-family: 'Katibeh', cursive;
+  font-size: 2em;
+  color: #f6aa1c;
+}
+
+.reference h4 {
+  clear: both;
+  font-family: 'Katibeh', cursive;
+  font-size: 2em;
+  color: #f6aa1c;
+}
+
+.reference p {
+  clear: both;
+  font-style: italic;
+}
+
+.accented-footer {
+  font-family: 'Katibeh', cursive;
+  font-size: 1.5em;
+  color: #ede7e3;
+}
+
+/********** Style rules for footer **********/
+
+footer {
+  clear: both;
+  font-family: 'PT Sans Caption', sans-serif;
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #621708;
+  color: #ede7e3;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+footer a {
+  font-family: 'Katibeh', cursive;
+  font-size: 1.5em;
+  color: #f6aa1c;
+  text-decoration: none;
+}
